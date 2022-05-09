@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
 import './Header.scss';
 
@@ -26,8 +27,8 @@ const Header = () => (
         <div className="badge-cmp app__flex">
           <span>👋</span>
           <div style={{ marginLeft: 20 }}>
-            <p className="p-text">Welcome, my name is</p>
-            <h1 className="head-text">Andrew</h1>
+            <p className="p-text">Welcome, 😀</p>
+            <h1 className="head-text">my name is Andrew</h1>
           </div>
         </div>
 
@@ -67,4 +68,4 @@ const Header = () => (
   </div>
 );
 
-export default Header
+export default AppWrap(Header, 'home');
