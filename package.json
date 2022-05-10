@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-bootstrap-validation": "^0.1.11",
+    "react-tooltip": "^4.2.21"
+  }
+}
